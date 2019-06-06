@@ -6,7 +6,6 @@
 <title>VCMP Vehicle Syntax Generator</title>
 <center>
 <h1>VCMP Vehicle Syntax Generator</h1>
-main.nut
 <form action="action.php" method="POST">
   <input type="number" name="m" min="130" max="236" placeholder="Vehicle Model" required>
   <input type="number" name="w" min="1" max="100" placeholder="World" required>
@@ -18,17 +17,4 @@ main.nut
   <input type="number" name="cl2" min="0" max="94" placeholder="Colour 2" required>
   <input type="submit" value="Create">
 </form>
-
-server.conf
-<form action="action2.php" method="POST">
-  <input type="number" name="m" min="130" max="236" placeholder="Vehicle Model" required>
-  <input type="number" name="w" min="1" max="100" placeholder="World" required>
-  <input type="text" name="x" size="4" placeholder="Vector X" required>
-  <input type="text" name="y"  size="4" placeholder="Vector Y" required>
-  <input type="text" name="z"  size="4" placeholder="Vector Z" required>
-  <input type="text" name="a"  size="4" placeholder="Angle" required>
-  <input type="number" name="cl1" min="0" max="94" placeholder="Colour 1" required>
-  <input type="number" name="cl2" min="0" max="94" placeholder="Colour 2" required>
-  <input type="submit" value="Create">
-</form> 
 </center>

@@ -15,4 +15,16 @@ main.nut<br>
 <?php echo ", ".$_POST["a"].""; ?>
 <?php echo ", ".$_POST["cl1"].""; ?>
 <?php echo ", ".$_POST["cl2"].");"; ?>
+<br>
+server.conf<br>
+<
+<?php echo 'Vehicle model="'.$_POST["m"].'" '; ?>
+<?php echo 'world="'.$_POST["w"].'" '; ?>
+<?php echo 'x="'.$_POST["x"].'" '; ?>
+<?php echo 'y="'.$_POST["y"].'" '; ?>
+<?php echo 'z="'.$_POST["z"].'" '; ?>
+<?php echo 'angle="'.$_POST["a"].'" '; ?>
+<?php echo 'col1="'.$_POST["cl1"].'" '; ?>
+<?php echo 'col2="'.$_POST["cl2"].'" '; ?>
+/>
 </center>
