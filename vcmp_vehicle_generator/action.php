@@ -27,4 +27,6 @@ server.conf<br>
 <?php echo 'col1="'.$_POST["cl1"].'" '; ?>
 <?php echo 'col2="'.$_POST["cl2"].'" '; ?>
 />
+<br><br>
+<a href="index.php" class="btn btn-primary">Add Vehicle</a>
 </center>
