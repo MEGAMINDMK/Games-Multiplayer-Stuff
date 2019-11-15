@@ -4,9 +4,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <link rel="icon" href="https://citizeniv.net/assets/favicon-f3hd0xob.ico" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
-   background-image: url(https://citizeniv.net/masterlist/font/back.png);
+   background-image: url(https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/b5210230-9b28-11e6-a08f-00163ed833e7/210366551/packetoverloads-gta4-wallpaper-vol2-0-screenshot.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
