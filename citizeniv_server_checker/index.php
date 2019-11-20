@@ -1,8 +1,3 @@
-<?php
-$IPaddress = $_SERVER['REMOTE_ADDR'];
-$host = $IPaddress;
-$ports = array(30120);
-?>
 <!DOCTYPE html>
 <html> 
 <head>
@@ -160,14 +155,25 @@ input[type=submit]
 			<h1 class="center"> <img src="https://citizeniv.net/assets/logo-fvfir2vd.png"width="300" height="80">
 			<br>CitizenIV-FX Reloaded Connection Checker</h1>
 			<div class="center">
-				<form id="check">
-				<?php
-				foreach ($ports as $port)
+				<form id="check" action="" method="post">
+				<p>
+						<input name="IP" type="text" placeholder="xxx.xxx.xxx.xxx" size="21">
+					</p>
+					<p>
+						<input type="submit" id="bCheck" value="Check your server!" />
+					</p>
+					</p>
+				</form>
+				<?php 
+				error_reporting(0);
+			$host = $_POST["IP"];
+            $ports = array(30120);
+			foreach ($ports as $port)
 {
     $connection = @fsockopen($host, $port);?>
 
 					<p>
-						<input name="IP" type="text" value="<?php echo "" . $host . ":" . $port . "";?>" size="21">
+						<input name="IP" type="text" value="<?php echo "" . $host . ":" . $port . "";?>" readonly size="21">
 					</p>
 					<p>
 						<input type="button" id="bCheck" value="<?php if (is_resource($connection))
@@ -181,9 +187,8 @@ input[type=submit]
     {
         echo "Offline";
     }
-}?>" size="7"/>
-					</p>
-				</form>
+}
+			?>" size="7"/>
 			</div>
 		</div>
 		<div class="footer">
