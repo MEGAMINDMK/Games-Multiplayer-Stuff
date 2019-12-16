@@ -159,7 +159,7 @@ input[type=submit]
     $connection = @fsockopen($host, $ports);?>
 
 					<p>
-						<input name="IP" type="text" value="<?php echo "" . $host . "" . $ports . "";?>" readonly size="21">
+						<input name="IP" type="text" value="<?php echo "" . $host . ":" . $ports . "";?>" readonly size="21">
 					</p>
 					<p>
 						<input type="button" id="bCheck" value="<?php if (is_resource($connection))
