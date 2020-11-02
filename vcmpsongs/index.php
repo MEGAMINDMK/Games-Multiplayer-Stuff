@@ -2,9 +2,9 @@
 /* List of songs which will be streamed */
 /* Remember to add a complete link to your songs collection */
 $songs = [
-    'http://wno-host.ddns.net:90/vcmpsongs/1.mp3',
-    'http://wno-host.ddns.net:90/vcmpsongs/2.mp3',
-	'http://wno-host.ddns.net:90/vcmpsongs/3.mp3'
+    'http://localhost/vcmpsongs/1.mp3',
+    'http://localhost/vcmpsongs/2.mp3',
+	'http://localhost/vcmpsongs/3.mp3'
 ];
  
 /* No need to change anything bellow */
